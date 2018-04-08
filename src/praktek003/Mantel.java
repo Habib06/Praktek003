@@ -6,6 +6,16 @@ public class Mantel extends Jaket{
     void throttle(){
         System.out.println("WAAAAAAH.......");
     }
+
+    public String getJenisMantel() {
+        return jenisMantel;
+    }
+
+    public void setJenisMantel(String jenisMantel) {
+        this.jenisMantel = jenisMantel;
+    }
+    
+    
 }
     
 
